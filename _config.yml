@@ -34,11 +34,10 @@ timezone: Asia/Shanghai
 author:
   name: Yang LIU
   email: yangliu0803@foxmail.com
-  qq: 1351525745
 
 
 
-## => GitHub Repository (if the site is hosted by GitHub)
+## => GitHub Repository
 ##############################
 repository: YangLIU0803/YangLIU0803.github.io
 repository_tree: master
@@ -62,9 +61,9 @@ excerpt_separator: <!--more-->
 license: CC-BY-4.0
 
 
-## => Paginate
+## => Paginate分页，每页最多显示10篇文章
 ##############################
-paginate: 7
+paginate: 10
 paginate_path: /blog/page:num
 
 
@@ -81,9 +80,9 @@ comments:
 pageview:
   provider: leancloud
   leancloud:
-    app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-    app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-    app_class: ThomasBlog
+    app_id: STOPxUpJ8jNzHhTUe8gMMVsR-gzGzoHsz
+    app_key: Gt91Y1mEt9dsksEri0RdXUUx
+    app_class: Blog
 
 
 ## => Analytics
@@ -91,7 +90,7 @@ pageview:
 analytics:
   provider: google
   google:
-    tracking_id: UA-71907556-1
+    tracking_id: 
 
 
 ## => Build
