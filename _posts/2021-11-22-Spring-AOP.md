@@ -2,7 +2,7 @@
 layout: article
 title: Spring AOP
 key: 10002
-tags: Tools
+tags: Spring
 category: blog
 date: 2021-11-22 14:50:00 +08:00
 modify_date: 2021-11-23 11:40:00 +08:00
