@@ -26,7 +26,7 @@ AOP（Aspect-Oriented Programming，面向切面编程）是一种编程范式�
 1. 通用功能集中在一个地方，而不是分散在多处代码里。
 2. Service更简洁，只需关注自己的核心代码，非核心代码被转移到切面中。
 
-### 2 AOP术语、使用场景
+## 2 AOP术语、使用场景
 
 - advice 通知：（what、when）
 > - @Before @After @Around @AfterReturning @AfterThrowing
@@ -38,6 +38,7 @@ AOP（Aspect-Oriented Programming，面向切面编程）是一种编程范式�
 > - 编译期：切面在目标类编译时被织入。这种方式需要特殊的编译器。AspectJ的织入编译器就是以这种方式织入切面的。
 > - 类加载期：切面在目标类加载到JVM时被织入。这种方式需要特殊的类加载器（ClassLoader），它可以在目标类被引入应用之前增强该目标类的字节码。AspectJ 5的加载时织入（load-timeweaving，LTW）就支持以这种方式织入切面。
 > - 运行期：切面在应用运行的某个时刻被织入。一般情况下，在织入切面时，AOP容器会为目标对象动态地创建一个代理对象。Spring AOP就是以这种方式织入切面的。
+
 - AOP proxy：由 AOP 框架创建的一个对象，用于实现切面合同（ advice 方法执行等）。在 Spring Framework 中，AOP 代理是 JDK 动态代理或 CGLIB 代理。
 --------
 - 日志
@@ -45,9 +46,9 @@ AOP（Aspect-Oriented Programming，面向切面编程）是一种编程范式�
 - 数据库事务管理
 - 缓存
 
-### 3 使用方法
+## 3 使用方法
 
-##### 3.1 编写切点
+### 3.1 编写切点
 首先定义一个接口来作为切点：
   public interface Performance {
       void perform();
@@ -57,17 +58,17 @@ AOP（Aspect-Oriented Programming，面向切面编程）是一种编程范式�
 
   execution(* com.wtj.springlearn.aop.Performance.perform(..))
 
-##### 3.2 在切点中选择bean
-##### 3.3 使用注解创建切面
+### 3.2 在切点中选择bean
+### 3.3 使用注解创建切面
 通过@Aspect进行标注，表示该Audience不仅是一个POJO还是一个切面。类中的方法表示了切面的具体行为。
   @Aspect
   public class RoleControlAspect{
     @Around(value = "@annotation(com.huawei.it.isc.logistics.bms.infrastructure.interceptor.RoleControl)")
   }
-##### 注入
-##### 自动代理
+### 注入
+### 自动代理
 
 
 
-### 4 Spring对AOP的支持
+## 4 Spring对AOP的支持
 
