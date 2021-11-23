@@ -1,17 +1,17 @@
 ---
 layout: article
 title: Spring AOP
-key: 10001
+key: 10002
 tags: Tools
 category: blog
 date: 2021-11-22 14:50:00 +08:00
-modify_date: 2021-11-22 14:50:00 +08:00
+modify_date: 2021-11-23 11:40:00 +08:00
 picture_frame: shadow
 ---
 
 组里的项目用到了Spring框架，好奇注解@RoleControl，于是了解了一下AOP（面向切面编程）。
 
-**欢迎探讨。**
+**还在更新中。**
 <!--more-->
 
 ### 1 AOP是什么
