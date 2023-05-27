@@ -17,7 +17,7 @@ My Name is Yang LIU.
 
 ## About Me | 关于我
 
-我叫刘洋，努力成为一名合格的JAVA后端攻城狮。
+我叫刘洋，努力成为一名合格的JAVA后端攻城狮。//努力成为一名不被开发骂的业务分析师Bussiness Analyst。
 
 
 如果你有任何问题，请给我发送邮件：[yangliu0803@foxmail.com](mailto:yangliu0803@foxmail.com)
