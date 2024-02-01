@@ -5,22 +5,6 @@ key: page-about
 ---
 Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
-My Name is Yang LIU.
-
-## Skills
-
-- JAVA
-- Python
-- Matlab
-
-<!--more-->
-
-## About Me | 关于我
-
-我叫刘洋，努力成为一名合格的JAVA后端攻城狮。//努力成为一名不被开发骂的业务分析师Bussiness Analyst。
-
-
-如果你有任何问题，请给我发送邮件：[yangliu0803@foxmail.com](mailto:yangliu0803@foxmail.com)
 
 ## Some Links | 相关链接
 
