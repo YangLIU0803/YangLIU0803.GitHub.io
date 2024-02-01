@@ -18,9 +18,9 @@
 ##############################
 url: https://YangLIU0803.github.io
 baseurl: /
-title: Liu's Site
+title: Little Monster Five's Site
 description: >
-    Yang LIU's Site | 刘洋的个人主页
+    Little Monster Five's Site | 小怪兽废物的个人主页
 
 
 ## => Language and Timezone
@@ -32,8 +32,8 @@ timezone: Asia/Shanghai
 ## => Author and Social
 ##############################
 author:
-  name: Yang LIU
-  email: yangliu0803@foxmail.com
+  name: Little Monster Five
+  email: 
 
 
 
